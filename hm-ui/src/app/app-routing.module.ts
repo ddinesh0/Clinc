@@ -26,7 +26,7 @@ import { AppointmentService } from './appointment.service';
 import { RegisterGuardService } from './Register-guard.service';
 
 const routes: Routes = [
-{path: 'welcomepage', component:WelcomeComponent},
+{path: '', component:WelcomeComponent},
 {path: 'signup', component:SignupComponent},
 {path: 'signin', component:SigninComponent},
 {path: 'admin',component:AdminComponent},
